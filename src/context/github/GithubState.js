@@ -24,6 +24,8 @@ if (process.env.NODE_ENV !== 'production') {
 console.log(process.env.NODE_ENV);
 console.log(process.env.GITHUB_CLIENT_ID);
 console.log(process.env.GITHUB_CLIENT_SECRET);
+console.log(process.env.REACT_APP_GITHUB_CLIENT_ID);
+console.log(process.env.REACT_APP_GITHUB_CLIENT_SECRET);
 
 const GithubState = (props) => {
   const initialState = {
