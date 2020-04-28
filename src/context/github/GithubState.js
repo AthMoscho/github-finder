@@ -21,6 +21,7 @@ if (process.env.NODE_ENV !== 'production') {
   githubClientSecret = process.env.GITHUB_CLIENT_SECRET;
 }
 
+console.log(process.env.NODE_ENV);
 console.log(process.env.GITHUB_CLIENT_ID);
 console.log(process.env.GITHUB_CLIENT_SECRET);
 
