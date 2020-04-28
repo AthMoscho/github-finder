@@ -21,6 +21,8 @@ if (process.env.NODE_ENV !== 'production') {
   githubClientSecret = process.env.REACT_APP_GITHUB_CLIENT_SECRET;
 }
 
+console.log(process.env.REACT_APP_GITHUB_CLIENT_SECRET);
+
 const GithubState = (props) => {
   const initialState = {
     users: [],
