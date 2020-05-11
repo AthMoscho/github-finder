@@ -6,7 +6,7 @@ const Navbar = ({ icon, title }) => {
   return (
     <div className='navbar bg-primary'>
       <h1>
-        <i className={icon}></i>
+        <i className={icon + 'm'}></i>
         {title}
       </h1>
       <ul>
